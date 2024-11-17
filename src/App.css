@@ -1,5 +1,13 @@
+.wrapper {
+  background-image: url("../background.webp");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+}
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -14,8 +22,9 @@
 }
 
 .App-header {
+
   background-color: #282c34;
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +41,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
